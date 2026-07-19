@@ -1,13 +1,82 @@
-REPLACE THIS FILE with your own background content before deploying.
 
-Suggested sections to include:
-- Who you are, in a sentence or two
-- Years of professional experience and current focus
-- Key roles / employers and what you did at each
-- Notable personal projects (name + one-line description each)
-- Education (degree, school, year)
-- Certifications
-- Skills / technologies you're strongest in
+<name>
+Boney Yogeshbhai Patel
+</name>
 
-Plain text is fine — no special formatting required. Keep it factual;
-the assistant is instructed to answer only from this content.
+<headline>
+Senior Software Engineer | Full-Stack Development | Cloud Platforms | Team Leadership 
+</headline>
+
+
+<summary>
+Senior Software Engineer with 8+ years of experience building scalable, cloud-native enterprise applications across federal and commercial environments. Expertise in microservices architecture, backend API development, secure authentication systems, CI/CD automation, and modern frontend frameworks including Angular and TypeScript. Hands-on experience delivering distributed systems using Azure, AWS, Java, Spring, and .NET technologies while collaborating in Agile engineering teams to improve scalability, reliability, and deployment velocity. Certified Azure Solutions Architect with a strong track record of driving modernization initiatives, improving operational efficiency, and mentoring high-performing engineering teams.
+I’m someone who takes ownership beyond my assigned tasks. I care deeply about how systems evolve over time, how teams collaborate, and how technology serves real users. I enjoy stepping into ambiguous problems, clarifying the underlying business or customer need, and turning that into clean, reliable, and scalable solutions.
+I’m passionate about continuous improvement, both in my own skills and in the engineering practices of the teams I work with. I actively contribute through code reviews, documentation, and mentoring, and I value open, constructive technical discussions that raise the bar for everyone involved.
+Outside of day-to-day delivery, I enjoy staying current with modern architectures, cloud platforms, and AI-assisted development tools, always looking for practical ways to increase team velocity without compromising quality, security, or maintainability.
+</summary>
+
+<experience>
+Senior Software Developer at ICF International, Reston, VA | January 2022 – June 2025
+- Designed, developed, and deployed 10+ cloud-native applications and services supporting U.S. Forest Service systems, improving scalability, deployment frequency, and operational reliability across mission-critical applications. 
+- Architected and launched a multi-agency Special Projects Database serving federal stakeholders, eliminating 7,000+ annual manual submissions and reducing approval processing timelines by 40%, significantly improving operational transparency. 
+- Built secure RESTful APIs and distributed backend services using modern object-oriented frameworks and microservices design principles. 
+- Implemented CI/CD automation pipelines across 5+ services using Azure DevOps and Jenkins, reducing deployment risk and accelerating release cycles by 30%. 
+- Designed and governed secure service architectures using OAuth2, JWT, and SSO authentication, ensuring compliance and improving platform-wide security posture. 
+- Contributed to automated testing strategies and quality-focused engineering practices across frontend and backend systems. 
+- Improved production reliability through centralized monitoring, structured incident response workflows, root-cause analysis, and proactive system observability improvements. 
+- Collaborated closely with product owners, QA engineers, architects, and developers in Agile sprint cycles, participating in code reviews, backlog refinement, and technical planning sessions. 
+- Environment: .NET Core, Angular, MS Azure, MS SQL Server, JavaScript, Datadog
+
+Software Developer at Creative Systems and Consulting LLC, Reston VA | October 2019 – December 2021
+- Designed and delivered scalable web applications and dashboards supporting federal business operations, improving frontend performance by 25% across high-traffic systems. 
+- Partnered with UX and product stakeholders to design extensible frontend and backend architectures supporting high traffic federal systems. 
+- Contributed to engineering quality through code reviews, architecture discussions, and secure coding best practices. 
+- Served as senior technical interviewer for full-stack and cloud engineering candidates. 
+- Environment: Java, Spring, .Net Core, jQuery, MS SQL Server, JavaScript, AWS
+
+Full Stack Developer at MJobTime Corporation, Beaumont TX | January 2019 – October 2019
+- Developed modular workforce management and HR systems improving operational efficiency and customer satisfaction. 
+- Designed algorithm-driven time tracking and incident management workflows, reducing issue resolution time by 30%. 
+- Refactored legacy components to improve scalability, maintainability, and application performance. 
+- Environment: ASP.Net, Sybase, JavaScript, Bootstrap, jQuery, MS SQL Server
+
+Software Developer at MJobTime Corporation, Beaumont TX | February 2018 – August 2018
+- Built real-time labor tracking features supporting multi-time-zone accuracy and high-volume transactional systems. 
+- Modernized HR workflows by redesigning employee management modules for improved scalability and maintainability. 
+- Environment: ASP.Net, Sybase, JavaScript, Bootstrap, jQuery, MS SQL Server 
+
+Software Developer at Innowera LLC, India | Jan 2016 – May 2016
+- Maintained enterprise-grade .NET products, fixing critical bugs and updating outdated libraries.
+- Collaborated cross-functionally to deliver SQL Server-backed modules.
+
+Software Developer at Larsen and Toubro Heavy Engineering, India | Jul 2014 – Dec 2015
+- Spearheaded development of Visitor Gate-Pass System, improving campus security and tracking.
+- Cut report generation time by 17% by optimizing stored procedures and indexes.
+</experience>
+
+
+<personal_projects>
+
+Personal Website
+- Environment: React, JavaScript
+
+Portfolio chatbot
+
+</personal_projects>
+
+
+<skilla>
+- Languages: Java, C#, JavaScript, TypeScript, Python, SQL
+- Backend & APIs: Spring, Spring Boot, ASP.NET Core, REST APIs, Microservices, Distributed Systems
+- Frontend: Angular 8+, JavaScript, TypeScript, HTML5, CSS3
+- Cloud & DevOps: Azure, AWS, Jenkins, Azure DevOps, CI/CD, Docker, Kubernetes, Git, SonarQube
+- Databases: SQL Server, MySQL, PostgreSQL, Sybase
+- Security: OAuth2, JWT, IAM, SSO, OWASP Secure Coding Practices
+- Engineering Practices: Agile/Scrum, Code Reviews, API Design, System Modernization, Monitoring & Observability, Performance Optimization
+</skilla>
+
+<certifications>
+- Microsoft Certified: Azure Solutions Architect Expert (2025)
+- AWS Solutions Architect – Associate (2023)
+- CompTIA Security+ (in-progress)
+</certifications>

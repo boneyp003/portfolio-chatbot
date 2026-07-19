@@ -13,7 +13,7 @@ binding = "AI"
 
 [[kv_namespaces]]
 binding = "RATE_LIMIT_KV"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "74fc714f778e41deb923a5eee865152a"
 
 [vars]
 ALLOWED_ORIGINS = "https://boneyp003.github.io,http://localhost:5173"

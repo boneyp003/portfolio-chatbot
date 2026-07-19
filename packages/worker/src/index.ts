@@ -11,7 +11,7 @@ interface ChatMessage {
   content: string
 }
 
-const MODEL = '@cf/meta/llama-3.1-8b-instruct'
+const MODEL = '@cf/meta/llama-3.1-8b-instruct-fp8'
 const RATE_LIMIT_PER_HOUR = 30
 
 function corsHeaders(origin: string | null, allowedOrigins: string[]): HeadersInit {
