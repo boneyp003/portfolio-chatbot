@@ -44,17 +44,22 @@ And in another:
 npm run dev:widget    # Vite dev sandbox, talks to the local worker
 ```
 
-## Before this goes live
+## Status
 
-1. **Provide your background content** — replace [packages/worker/src/background.txt](packages/worker/src/background.txt)
-   with your real experience/projects/education/certifications text. The assistant
-   answers only from this file.
-2. **Deploy the worker** (`npm run deploy` inside `packages/worker`, after
-   `npx wrangler login` — needs your own free Cloudflare account) to get a live URL.
-3. **Build the widget** (`npm run build` inside `packages/widget`).
-4. **Wire it into the site**: from `boneyp003.github.io`,
-   `npm install --save file:../portfolio-chatbot/packages/widget`, then add
-   `<Chatbot apiUrl="<your worker URL>/chat" />` to `App.tsx` and import
-   `@portfolio-chatbot/widget/style.css` once.
+Done: background content is filled in, the worker is deployed, and the widget
+is wired into `boneyp003.github.io`.
 
-Steps 2-4 aren't done yet — they need your Cloudflare login and background text file.
+## How the site consumes the widget
+
+The site doesn't install this as an npm package — it **vendors the built
+output**. After building the widget (`npm run build` inside `packages/widget`),
+copy `dist/portfolio-chatbot-widget.js`, `dist/portfolio-chatbot-widget.css`,
+and `dist/index.d.ts` (renamed to `portfolio-chatbot-widget.d.ts`, so TypeScript
+picks it up as the sibling declaration file) into
+`boneyp003.github.io/src/vendor/chatbot-widget/`, overwriting the existing
+copies. Re-copy those three files any time you change the widget's source.
+
+This avoids both a cross-repo `file:` dependency (which broke the site's CI,
+since GitHub Actions only checks out one repo) and a published npm package
+(GitHub Packages requires an authenticated token to install even public
+packages, which added friction for no real benefit at this scale).

@@ -62,10 +62,12 @@ Outputs an ESM + CJS bundle and type declarations to `dist/`, plus a single
 
 ## Consuming from `boneyp003.github.io`
 
-Not published to npm — install it locally once built:
+Not published to npm. After running `npm run build` above, copy these three
+files into `boneyp003.github.io/src/vendor/chatbot-widget/`, overwriting the
+existing copies:
 
-```
-npm install --save file:../portfolio-chatbot/packages/widget
-```
-
-(run from the `boneyp003.github.io` repo, assuming both repos are siblings on disk).
+- `dist/portfolio-chatbot-widget.js`
+- `dist/portfolio-chatbot-widget.css`
+- `dist/index.d.ts` → rename to `dist/portfolio-chatbot-widget.d.ts` (matching
+  the `.js` filename lets TypeScript pick it up as the sibling declaration
+  file automatically)
