@@ -1,8 +1,10 @@
 {
-  "name": "@portfolio-chatbot/widget",
-  "private": true,
+  "name": "@boneyp003/portfolio-chatbot-widget",
   "version": "0.1.0",
   "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "./dist/portfolio-chatbot-widget.cjs",
   "module": "./dist/portfolio-chatbot-widget.js",
   "types": "./dist/index.d.ts",
