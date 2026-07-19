@@ -56,12 +56,16 @@ Software Developer at Larsen and Toubro Heavy Engineering, India | Jul 2014 – 
 
 
 <personal_projects>
-
-Personal Website
+Personal Website (2025)
+- Designed and shipped a plug-in React chatbot widget backed by a Cloudflare Workers AI serverless proxy, enabling LLM-powered Q&A on a static site with zero exposed API keys and zero hosting cost.
+- Built a scoped, theme-aware component library (CSS custom properties, dark/light variants) packaged for reuse across projects, with automated npm-workspace builds and CORS/rate-limiting enforced at the edge.
+- Engineered the retrieval-free context pipeline: structured resume/background content injected as a system prompt, keeping answers grounded and eliminating hallucination risk without a vector database.
 - Environment: React, JavaScript
 
-Portfolio chatbot
-
+Portfolio chatbot (2026)
+- Integrated a third-party AI chatbot widget into a production React/TypeScript site, resolving cross-repo dependency and CI packaging constraints (GitHub Actions, static hosting) via a vendored-build strategy.
+- Diagnosed and resolved a live-deployment model deprecation (Cloudflare Workers AI) by identifying and validating a compatible replacement model with zero downtime.
+- Maintained UI/UX quality during feature rollout by identifying and fixing a fixed-position element collision (theme toggle vs. chat launcher), verified via automated in-browser testing.
 </personal_projects>
 
 
