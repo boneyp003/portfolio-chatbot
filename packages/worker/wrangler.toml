@@ -1,0 +1,19 @@
+name = "portfolio-chatbot-worker"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+# Lets `import background from "./background.txt"` pull in the raw file contents at build time.
+[[rules]]
+type = "Text"
+globs = ["**/*.txt"]
+fallthrough = true
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT_KV"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+
+[vars]
+ALLOWED_ORIGINS = "https://boneyp003.github.io,http://localhost:5173"

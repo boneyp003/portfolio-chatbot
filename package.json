@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-chatbot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "workspaces": [
+    "packages/widget",
+    "packages/worker"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "dev:widget": "npm run dev -w @portfolio-chatbot/widget",
+    "dev:worker": "npm run dev -w @portfolio-chatbot/worker"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "sharp@0.34.5": true,
+    "workerd@1.20260714.1": true
+  }
+}

@@ -1,0 +1,13 @@
+REPLACE THIS FILE with your own background content before deploying.
+
+Suggested sections to include:
+- Who you are, in a sentence or two
+- Years of professional experience and current focus
+- Key roles / employers and what you did at each
+- Notable personal projects (name + one-line description each)
+- Education (degree, school, year)
+- Certifications
+- Skills / technologies you're strongest in
+
+Plain text is fine — no special formatting required. Keep it factual;
+the assistant is instructed to answer only from this content.

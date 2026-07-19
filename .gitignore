@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.wrangler/
+*.log
+.DS_Store
+
+# Real background content is personal - keep the placeholder committed,
+# swap in your own copy locally without accidentally committing it.
+packages/worker/src/background.local.txt
